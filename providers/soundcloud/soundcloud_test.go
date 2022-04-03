@@ -1,11 +1,12 @@
 package soundcloud_test
 
 import (
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/soundcloud"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
+
+	"github.com/casdoor/goth"
+	"github.com/casdoor/goth/providers/soundcloud"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_New(t *testing.T) {

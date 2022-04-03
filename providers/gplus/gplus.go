@@ -12,7 +12,8 @@ import (
 	"strings"
 
 	"fmt"
-	"github.com/markbates/goth"
+
+	"github.com/casdoor/goth"
 	"golang.org/x/oauth2"
 )
 
